@@ -1,0 +1,18 @@
+# editor
+.idea
+.vscode
+
+# Virtual environments
+.venv
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
