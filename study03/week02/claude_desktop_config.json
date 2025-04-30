@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "Demo": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "/Users/baggeumjib/Work/mcp/example/server.py"
+      ]
+    },
+    "Echo": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "/Users/baggeumjib/Work/mcp/example/echoserver.py"
+      ]
+    },
+    "ElevenLabs": {
+      "command": "uvx",
+      "args": ["elevenlabs-mcp"],
+      "env": {
+        "ELEVENLABS_API_KEY": "sk_43a11dd82df6ba85493eda384b528822661a07c66401d281"
+      }
+    },
+    "mcp_scrap_news": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "supergateway",
+        "--sse",
+        "http://localhost:5678/mcp/0871bbee-e5fe-4dc8-8968-f230007cace1/sse"
+      ]
+    },
+    "mcp_send_news_to_slack": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "supergateway",
+        "--sse",
+        "http://localhost:5678/mcp/a54474d9-6dbb-41e3-83e2-472e9f02b3bc/sse"
+      ]
+    }
+  }
+}
