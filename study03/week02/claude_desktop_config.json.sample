@@ -46,6 +46,17 @@
         "--sse",
         "http://localhost:5678/mcp/a54474d9-6dbb-41e3-83e2-472e9f02b3bc/sse"
       ]
+    },
+    "Weather": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "/Users/baggeumjib/CodeRepos/github/newdawn-repos/study03/week02/mcp_server_local.py"
+      ]
     }
   }
 }
