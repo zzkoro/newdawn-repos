@@ -26,7 +26,7 @@
       "command": "uvx",
       "args": ["elevenlabs-mcp"],
       "env": {
-        "ELEVENLABS_API_KEY": "sk_43a11dd82df6ba85493eda384b528822661a07c66401d281"
+        "ELEVENLABS_API_KEY": "sk_elevenlabs_api_key"
       }
     },
     "mcp_scrap_news": {
@@ -56,6 +56,15 @@
         "mcp",
         "run",
         "/Users/baggeumjib/CodeRepos/github/newdawn-repos/study03/week02/mcp_server_local.py"
+      ]
+    },
+    "TimeService": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "supergateway",
+        "--sse",
+        "http://localhost:8005/sse"
       ]
     }
   }
