@@ -8,7 +8,7 @@
 ├── .python-version : python 버전 파일
 ├── 01_mcp_server_local.py : MCP 서버 stdio 모드 실행 파일
 ├── 02_mcp_server_remote.py : MCP 서버 sse 모드 실행 파일
-├── 03_mcp_server_client.ipynb : MCP 서버 클라이언트 실행 파일
+├── 03_mcp_client.ipynb : MCP 서버 클라이언트 실행 파일
 ├── claude_desktop_config.json.sample : Claude Desktop 설정 파일 sample
 ├── main.py : 사용하지 않음
 ├── pyproject.toml : uv 설정 파일
@@ -86,5 +86,5 @@ uv run 02_mcp_server_remote.py
 ### 5) MCP 클라이언트 실행
 
 ```
-03_mcp_server_client.ipynb 내 코드 실행
+03_mcp_client.ipynb 내 코드 실행
 ```
