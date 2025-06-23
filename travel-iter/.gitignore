@@ -1,0 +1,20 @@
+# Editor
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Mac
+.DS_Store
